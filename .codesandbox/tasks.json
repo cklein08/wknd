@@ -1,0 +1,43 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "lint:js": {
+      "name": "lint:js",
+      "command": "npm run lint:js",
+      "runAtStart": false
+    },
+    "lint:css": {
+      "name": "lint:css",
+      "command": "npm run lint:css",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "generate-traffic": {
+      "name": "generate-traffic",
+      "command": "npm run generate-traffic",
+      "runAtStart": false
+    }
+  }
+}
